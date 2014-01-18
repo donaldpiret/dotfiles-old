@@ -40,5 +40,8 @@ done
 
 unset config_files
 
+# Direnv hook
+eval "$(direnv hook zsh)"
+
 # Boxen stuff
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
