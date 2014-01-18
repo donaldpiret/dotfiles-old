@@ -15,6 +15,7 @@
 
   ci = commit
   ch = checkout
+  co = checkout
   fc = commit -am 'Initial commit.'
   cpush = "!sh -c 'git commit -au -m \"$1\" && git push -u origin' -"
   d = diff
