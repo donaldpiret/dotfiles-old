@@ -1,2 +1,3 @@
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin:/opt/boxen/homebrew/bin:/opt/boxen/nodenv/shims:/usr/local/share/python:$DOTFILES/bin
+export PATH=$HOME/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/usr/local/share/python:$DOTFILES/bin:/usr/local/opt/go/libexec/bin
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
+export GOPATH=$HOME/Projects/Go
